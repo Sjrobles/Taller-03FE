@@ -1,0 +1,55 @@
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  color: white;
+  background: linear-gradient(90deg, #1e1b4b, #1e3a8a);
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero span { color: #ff4d6d; }
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+  color: #cbd5e1;
+}
+
+.hero .btn-hero {
+  background: #ff4d6d;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s;
+}
+
+.hero .btn-hero:hover { background: #e03357; }
+
+.courses {
+  text-align: center;
+  padding: 70px 80px;
+}
+
+.courses h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.courses > p { color: #6b7280; }
+
+.course-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}

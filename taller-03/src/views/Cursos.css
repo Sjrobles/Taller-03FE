@@ -1,0 +1,21 @@
+.cursos-page {
+  text-align: center;
+  min-height: calc(100vh - 120px); 
+  padding: 70px 80px;
+}
+
+.cursos-page h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.cursos-page > p { color: #6b7280; }
+
+.cursos-page .course-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+

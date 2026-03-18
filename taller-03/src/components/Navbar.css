@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background: #0f172a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar h2 { color: #ff4d6d; }
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover,
+.navbar a.active { color: #ff4d6d; }
